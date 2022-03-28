@@ -1,0 +1,6 @@
+- random note
+- random articulation
+- goal: maximum tempo, even rhythm, perfect intonation, good tone
+
+# of notes controlled by user. as they get more advanced they can increase the notes.
+maybe provide metronome and playback as reference
