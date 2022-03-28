@@ -4,3 +4,5 @@
 
 # of notes controlled by user. as they get more advanced they can increase the notes.
 maybe provide metronome and playback as reference
+
+maybe also extra goal of playing with lowest possible fingering as well
