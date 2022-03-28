@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/abcjs@latest/dist/abcjs-basic-min.js"></script>
+    </head>
+    <body>
+        <div id="output"></div>
+        <script>
+            const notes = [
+                "_B,", "=B,", "=C", "^C", "=D", "_E", "=E", "=F", "^F", "=G",
+                "_A", "=A", "_B", "=B", "=c", "^c", "d", "_e", "=e", "=f", "^f",
+                "=g", "_a", "=a", "_b", "=b", "=c'", "^c'", "=d'", "_e'", "=e'",
+                "=f'", "^f'", "=g'"
+            ]
+
+            let abc = "";
+            for(let i = 0; i < 8; i++) {
+                abc += notes[Math.floor(Math.random() * notes.length)];
+            }
+            ABCJS.renderAbc("output", abc)
+        </script>
+    </body>
+</html>
