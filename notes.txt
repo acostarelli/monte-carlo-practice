@@ -8,3 +8,9 @@ maybe provide metronome and playback as reference
 maybe also extra goal of playing with lowest possible fingering as well
 
 add metronome, playback, and tuner
+
+// add articulation
+// add metronome
+// add tuner
+// add # of notes input
+// add playback; maybe hide visual output?

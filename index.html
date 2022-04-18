@@ -6,15 +6,17 @@
     <body>
         <div id="output"></div>
         <script>
+            // https://pages.mtu.edu/~suits/notefreqs.html
+
             const notes = [
                 "_B,", "=B,", "=C", "^C", "=D", "_E", "=E", "=F", "^F", "=G",
-                "_A", "=A", "_B", "=B", "=c", "^c", "d", "_e", "=e", "=f", "^f",
-                "=g", "_a", "=a", "_b", "=b", "=c'", "^c'", "=d'", "_e'", "=e'",
-                "=f'", "^f'", "=g'"
+                "_A", "=A", "_B", "=B", "=c", "^c", "=d", "_e", "=e", "=f",
+                "^f", "=g", "_a", "=a", "_b", "=b", "=c'", "^c'", "=d'", "_e'",
+                "=e'", "=f'", "^f'", "=g'"
             ]
 
             let abc = "";
-            for(let i = 0; i < 8; i++) {
+            for(let i = 0; i < 64; i++) {
                 abc += notes[Math.floor(Math.random() * notes.length)];
             }
             ABCJS.renderAbc("output", abc)
